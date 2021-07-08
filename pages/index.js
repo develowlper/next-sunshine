@@ -12,13 +12,13 @@ export default function Home() {
       </Head>
 
       <header className={styles.header}>
-        <h1 className={styles.headline}>CSS Art</h1>
+        <h1 className={styles.headline}>Hello Sunshine!</h1>
         <nav className={styles.nav}>
           <ul className={styles.navitems}>
             <li className={styles.navitem}>
               <Link href="/heart">
                 <a className={clsx(styles.link, styles['link--leda'])}>
-                  <span>Heart</span>
+                  <span>Heart {'>'}</span>
                 </a>
               </Link>
             </li>

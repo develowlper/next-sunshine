@@ -1,0 +1,13 @@
+.navitem {
+  padding: 0.5rem 1rem;
+  transition: all 0.3s;
+}
+
+.link > *:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.navitem:hover {
+  color: var(--color-link-hover);
+  transform: rotateX(-360deg);
+}

@@ -1,0 +1,7 @@
+.navitems {
+  list-style-type: none;
+}
+
+.navitems > *:not(:last-child) {
+  margin-bottom: 0.25rem;
+}
